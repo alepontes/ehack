@@ -1,0 +1,39 @@
+.nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav img {
+    left: 1px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.nav ul {
+    margin: 0px;
+    display: flex;
+    /* right: 0px; */
+}
+
+.nav ul li :hover {
+    background-color: rgb(25, 0, 255);
+    transition: 0.4s;
+    border-color: white;
+}
+
+.nav ul li {
+  list-style-type: none;
+  margin: 2px 10px;
+  padding: 10px;  
+  border: transparent 1px solid;
+}
+
+.nav ul li a {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 21px;
+    color: white;
+    text-decoration:none; 
+}

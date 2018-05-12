@@ -1,0 +1,49 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu {
+    background-color: rgb(0, 255, 242);
+    width: 25%;
+    margin: 5px; 
+    padding: 2px;
+    position: fixed;
+}
+
+.menu input {
+    border-radius: inherit;
+    width: 90%;
+    height: 30px;
+}
+
+.menu h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20;
+    color: inherit;
+}
+
+.menu p {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: inherit;
+    color: inherit;
+    margin: 20px 3px 2px 3px;
+}
+
+.preco {
+    justify-content: space-around;
+}
+
+.preco input {
+    width: 47%;
+    margin: 2px;
+}
+
+.list {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: inherit;
+    color: inherit;  
+    margin: 0px 3px;
+}

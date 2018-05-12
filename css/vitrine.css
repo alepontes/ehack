@@ -1,0 +1,10 @@
+.vitrine {
+    background-color: blueviolet;
+    width: 75%;
+    /* height: 200vh; */
+    margin: 5px;
+    margin-left: 26%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: start; */
+}
