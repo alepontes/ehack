@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/vender.css">
+    <script defer src="script/map.js"></script>
+    <script defer src="script/cadastrar.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <title>Loja</title>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="nav">
+
+        <div class="logo">
+            <img src="https://logodownload.org/wp-content/uploads/2018/02/reddit-logo-16.png" alt="">
+        </div>
+
+        <ul>
+            <li>
+                <a href="./index.html" target="_self">Comprar</a>
+            </li>
+            <li>
+                <a href="./vender.html" target="_self">Vender</a>
+            </li>
+            <li>
+                <a href="#">Lorem</a>
+            </li>
+            <li>
+                <a href="#">Ipsum</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="form">
+
+        <form>
+
+            <div class="esquerda">
+
+                <p>Titulo</p>
+                <input id="titulo" type="text">
+                <p>Preço</p>
+                <input id="preco" type="text" pattern="[0-9]+$">
+
+
+                <div>
+                    <p>Tipo</p>
+                    <select id="#tipo" class="list">
+                        <option value="novo">Novo</option>
+                        <option value="usado">Usado</option>
+                        <option value="lorem">Lorem</option>
+                        <option value="ipsum">Ipsum</option>
+                    </select>
+                </div>
+
+
+                <p>Descrição</p>
+                <textarea id="descricao" rows="4" cols="50"></textarea>
+            </div>
+
+
+
+            <div class="direita">
+
+                <p>Endereço</p>
+                <input id="endereco" type="text">
+
+
+                <p>Imagem so anuncio</p>
+                <input id="img" type="file">
+            </div>
+
+
+            <a onclick="enviar()">Cadastrar</a>
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>

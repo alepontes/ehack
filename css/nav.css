@@ -19,7 +19,7 @@
 }
 
 .nav ul li :hover {
-    background-color: rgb(25, 0, 255);
+    /* background-color: rgb(25, 0, 255); */
     transition: 0.4s;
     border-color: white;
 }

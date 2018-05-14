@@ -1,0 +1,69 @@
+.form {
+    padding: 20px;
+}
+
+.form form{
+    background-color: rgb(252, 241, 252);
+    border: solid black 2px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form form input {
+    width: 300px;
+    height: 30px; 
+    font-family: 'Raleway', sans-serif;
+    font-size: inherit;
+    color: inherit;  
+}
+
+.form form textarea {
+    resize: none;
+}
+
+.form form p {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: inherit;
+    margin: 50px 3px 2px 3px;
+}
+
+.map {
+    width: 100%;
+    height: 60%;
+    border: solid black 2px;
+}
+
+
+.list {
+    width: 300px;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: inherit;
+    color: inherit;  
+    margin: 0px 3px;
+}
+
+.form a {
+    padding: 10px 20px;
+    margin-top: 20px; 
+    width: 200px;
+    border: solid black 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;    
+}
+
+.esquerda {
+    width: 50%
+}
+
+.direita {
+    width: 50%
+}
