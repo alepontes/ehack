@@ -31,7 +31,7 @@
 let origin = '1374+Av+Paulista+Bela+Vista+São+Paulo+SP+01310+100';
 let destination = 'jardim+angela';
 
-let link = `https://www.google.com/maps/embed/v1/directions?key=AIzaSyBavNN39jfmFEgeBfl71RC1AikNxRgE_ts&origin=${origin}&destination=${destination}&avoid=tolls|highways`
+let link = `https://www.google.com/maps/embed/v1/directions?key=A&origin=${origin}&destination=${destination}&avoid=tolls|highways`
 
 console.log(link);
 
